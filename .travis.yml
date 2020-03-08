@@ -8,10 +8,12 @@ matrix:
       env: ARCH=ia32
     - os: linux
       env: ARCH=x64
+    - os: windows
+      env: ARCH=x64
     - os: osx
 
 node_js:
-  - 9
+  - 12.14.1
 
 before_script:
 #  MacOS 64 bits version
